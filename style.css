@@ -1,0 +1,52 @@
+header {
+    position: relative;
+    height: 300px; /* Adjust the height as needed */
+}
+
+.background-image {
+    background-image: url("degree.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(5, 5, 5, 0.6);
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5707ebe0;
+    padding: 5px;
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+nav a:hover {
+    background-color: #eb994d;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #1a1313;
+}
+.content p{
+
+    left: 50px;
+}
